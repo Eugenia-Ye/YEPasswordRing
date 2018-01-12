@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BAA1486FED25D71EDF61B32 /* libPods-YEPasswordRing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59932731618B3726C33C9DD8 /* libPods-YEPasswordRing.a */; };
+		3FB0B5E4898F3C0C1C4EE8BF /* libPods-YEPasswordRingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF5BD21FD4E53AD3DFCB5D2 /* libPods-YEPasswordRingUITests.a */; };
+		7FC5A8B31C38BA58009C1059 /* YEPasswordRingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5A8B21C38BA58009C1059 /* YEPasswordRingTests.m */; };
+		7FC5A8BE1C38BA58009C1059 /* YEPasswordRingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5A8BD1C38BA58009C1059 /* YEPasswordRingUITests.m */; };
+		C81580807F8518D5477B2F21 /* libPods-YEPasswordRingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EDB856F46A2048FF7F7A3B /* libPods-YEPasswordRingTests.a */; };
+		FE92D7051F8B077800CF1C4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92D7041F8B077800CF1C4A /* AppDelegate.m */; };
+		FE92D70A1F8B079B00CF1C4A /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92D7071F8B079B00CF1C4A /* UIColor+Utils.m */; };
+		FE92D70B1F8B079B00CF1C4A /* YEPinController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92D7091F8B079B00CF1C4A /* YEPinController.m */; };
+		FE92D70E1F8B07BD00CF1C4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92D70D1F8B07BD00CF1C4A /* main.m */; };
+		FE92D7191F8B08F200CF1C4A /* deletePasscode_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7111F8B08F200CF1C4A /* deletePasscode_disable.png */; };
+		FE92D71A1F8B08F200CF1C4A /* deletePasscode_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7121F8B08F200CF1C4A /* deletePasscode_disable@2x.png */; };
+		FE92D71B1F8B08F200CF1C4A /* deletePasscode.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7131F8B08F200CF1C4A /* deletePasscode.png */; };
+		FE92D71C1F8B08F200CF1C4A /* deletePasscode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7141F8B08F200CF1C4A /* deletePasscode@2x.png */; };
+		FE92D71D1F8B08F200CF1C4A /* donePasscode_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7151F8B08F200CF1C4A /* donePasscode_disable.png */; };
+		FE92D71E1F8B08F200CF1C4A /* donePasscode_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7161F8B08F200CF1C4A /* donePasscode_disable@2x.png */; };
+		FE92D71F1F8B08F200CF1C4A /* donePasscode.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7171F8B08F200CF1C4A /* donePasscode.png */; };
+		FE92D7201F8B08F200CF1C4A /* donePasscode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7181F8B08F200CF1C4A /* donePasscode@2x.png */; };
+		FE92D7231F8B093F00CF1C4A /* YERingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92D7221F8B093F00CF1C4A /* YERingView.m */; };
+		FE92D7251F8B095D00CF1C4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7241F8B095D00CF1C4A /* Info.plist */; };
+		FE92D7271F8B096900CF1C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7261F8B096900CF1C4A /* Assets.xcassets */; };
+		FE92D72A1F8B09BD00CF1C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE92D7281F8B09BD00CF1C4A /* Main.storyboard */; };
+		FE92D75C1F8C2E0B00CF1C4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE92D75A1F8C2E0B00CF1C4A /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FC5A8AF1C38BA58009C1059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC5A88D1C38BA58009C1059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC5A8941C38BA58009C1059;
+			remoteInfo = TXTradePasswordDemo;
+		};
+		7FC5A8BA1C38BA58009C1059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC5A88D1C38BA58009C1059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC5A8941C38BA58009C1059;
+			remoteInfo = TXTradePasswordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD6298460608F19421636D3 /* Pods-YEPasswordRing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YEPasswordRing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YEPasswordRing/Pods-YEPasswordRing.debug.xcconfig"; sourceTree = "<group>"; };
+		16F157F7B1DA47575609E6FB /* Pods-YEPasswordRingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YEPasswordRingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YEPasswordRingTests/Pods-YEPasswordRingTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D442989EDA4FCB77CDE929B /* Pods-YEPasswordRing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YEPasswordRing.release.xcconfig"; path = "Pods/Target Support Files/Pods-YEPasswordRing/Pods-YEPasswordRing.release.xcconfig"; sourceTree = "<group>"; };
+		59932731618B3726C33C9DD8 /* libPods-YEPasswordRing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YEPasswordRing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F642D226C1C53F3DEC76A4 /* Pods-YEPasswordRingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YEPasswordRingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YEPasswordRingTests/Pods-YEPasswordRingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FC5A8951C38BA58009C1059 /* YEPasswordRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YEPasswordRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC5A8AE1C38BA58009C1059 /* YEPasswordRingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YEPasswordRingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC5A8B21C38BA58009C1059 /* YEPasswordRingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YEPasswordRingTests.m; sourceTree = "<group>"; };
+		7FC5A8B41C38BA58009C1059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC5A8B91C38BA58009C1059 /* YEPasswordRingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YEPasswordRingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC5A8BD1C38BA58009C1059 /* YEPasswordRingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YEPasswordRingUITests.m; sourceTree = "<group>"; };
+		7FC5A8BF1C38BA58009C1059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3DC050C1198ED499F1AA6F /* Pods-YEPasswordRingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YEPasswordRingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YEPasswordRingUITests/Pods-YEPasswordRingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF5BD21FD4E53AD3DFCB5D2 /* libPods-YEPasswordRingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YEPasswordRingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EDB856F46A2048FF7F7A3B /* libPods-YEPasswordRingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YEPasswordRingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52376522D2F28D16C4A3429 /* Pods-YEPasswordRingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YEPasswordRingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YEPasswordRingUITests/Pods-YEPasswordRingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE92D7031F8B077800CF1C4A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YEPasswordRing/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FE92D7041F8B077800CF1C4A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YEPasswordRing/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		FE92D7061F8B079B00CF1C4A /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Utils.h"; path = "YEPasswordRing/UIColor+Utils.h"; sourceTree = SOURCE_ROOT; };
+		FE92D7071F8B079B00CF1C4A /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Utils.m"; path = "YEPasswordRing/UIColor+Utils.m"; sourceTree = SOURCE_ROOT; };
+		FE92D7081F8B079B00CF1C4A /* YEPinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YEPinController.h; path = YEPasswordRing/YEPinController.h; sourceTree = SOURCE_ROOT; };
+		FE92D7091F8B079B00CF1C4A /* YEPinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YEPinController.m; path = YEPasswordRing/YEPinController.m; sourceTree = SOURCE_ROOT; };
+		FE92D70C1F8B07AE00CF1C4A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = YEPasswordRing/Constants.h; sourceTree = SOURCE_ROOT; };
+		FE92D70D1F8B07BD00CF1C4A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YEPasswordRing/main.m; sourceTree = SOURCE_ROOT; };
+		FE92D7111F8B08F200CF1C4A /* deletePasscode_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deletePasscode_disable.png; path = Resources/Images/deletePasscode_disable.png; sourceTree = SOURCE_ROOT; };
+		FE92D7121F8B08F200CF1C4A /* deletePasscode_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "deletePasscode_disable@2x.png"; path = "Resources/Images/deletePasscode_disable@2x.png"; sourceTree = SOURCE_ROOT; };
+		FE92D7131F8B08F200CF1C4A /* deletePasscode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deletePasscode.png; path = Resources/Images/deletePasscode.png; sourceTree = SOURCE_ROOT; };
+		FE92D7141F8B08F200CF1C4A /* deletePasscode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "deletePasscode@2x.png"; path = "Resources/Images/deletePasscode@2x.png"; sourceTree = SOURCE_ROOT; };
+		FE92D7151F8B08F200CF1C4A /* donePasscode_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donePasscode_disable.png; path = Resources/Images/donePasscode_disable.png; sourceTree = SOURCE_ROOT; };
+		FE92D7161F8B08F200CF1C4A /* donePasscode_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "donePasscode_disable@2x.png"; path = "Resources/Images/donePasscode_disable@2x.png"; sourceTree = SOURCE_ROOT; };
+		FE92D7171F8B08F200CF1C4A /* donePasscode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donePasscode.png; path = Resources/Images/donePasscode.png; sourceTree = SOURCE_ROOT; };
+		FE92D7181F8B08F200CF1C4A /* donePasscode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "donePasscode@2x.png"; path = "Resources/Images/donePasscode@2x.png"; sourceTree = SOURCE_ROOT; };
+		FE92D7211F8B093F00CF1C4A /* YERingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YERingView.h; path = YEPasswordRing/JSPassword/YERingView.h; sourceTree = SOURCE_ROOT; };
+		FE92D7221F8B093F00CF1C4A /* YERingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YERingView.m; path = YEPasswordRing/JSPassword/YERingView.m; sourceTree = SOURCE_ROOT; };
+		FE92D7241F8B095D00CF1C4A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YEPasswordRing/Info.plist; sourceTree = SOURCE_ROOT; };
+		FE92D7261F8B096900CF1C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = YEPasswordRing/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FE92D7291F8B09BD00CF1C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = YEPasswordRing/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		FE92D75B1F8C2E0B00CF1C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = YEPasswordRing/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC5A8921C38BA58009C1059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAA1486FED25D71EDF61B32 /* libPods-YEPasswordRing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC5A8AB1C38BA58009C1059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81580807F8518D5477B2F21 /* libPods-YEPasswordRingTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC5A8B61C38BA58009C1059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB0B5E4898F3C0C1C4EE8BF /* libPods-YEPasswordRingUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F64D5ADEFB94FE6ED7686F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59932731618B3726C33C9DD8 /* libPods-YEPasswordRing.a */,
+				E4EDB856F46A2048FF7F7A3B /* libPods-YEPasswordRingTests.a */,
+				CAF5BD21FD4E53AD3DFCB5D2 /* libPods-YEPasswordRingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FC5A88C1C38BA58009C1059 = {
+			isa = PBXGroup;
+			children = (
+				7FC5A8971C38BA58009C1059 /* YEPasswordRing */,
+				7FC5A8B11C38BA58009C1059 /* YEPasswordRingTests */,
+				7FC5A8BC1C38BA58009C1059 /* YEPasswordRingUITests */,
+				7FC5A8961C38BA58009C1059 /* Products */,
+				A390116E627D3A38548E0015 /* Pods */,
+				3F64D5ADEFB94FE6ED7686F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC5A8961C38BA58009C1059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5A8951C38BA58009C1059 /* YEPasswordRing.app */,
+				7FC5A8AE1C38BA58009C1059 /* YEPasswordRingTests.xctest */,
+				7FC5A8B91C38BA58009C1059 /* YEPasswordRingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC5A8971C38BA58009C1059 /* YEPasswordRing */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D75A1F8C2E0B00CF1C4A /* LaunchScreen.xib */,
+				FE92D7281F8B09BD00CF1C4A /* Main.storyboard */,
+				FE92D7261F8B096900CF1C4A /* Assets.xcassets */,
+				FE92D7241F8B095D00CF1C4A /* Info.plist */,
+				FE92D70C1F8B07AE00CF1C4A /* Constants.h */,
+				FE92D7061F8B079B00CF1C4A /* UIColor+Utils.h */,
+				FE92D7071F8B079B00CF1C4A /* UIColor+Utils.m */,
+				FE92D7081F8B079B00CF1C4A /* YEPinController.h */,
+				FE92D7091F8B079B00CF1C4A /* YEPinController.m */,
+				FE92D7031F8B077800CF1C4A /* AppDelegate.h */,
+				FE92D7041F8B077800CF1C4A /* AppDelegate.m */,
+				FED6DAC71F85C7920046AB42 /* Resources */,
+				FEF02A721F830D4300542C34 /* YEPassword */,
+				7FC5A8981C38BA58009C1059 /* Supporting Files */,
+			);
+			name = YEPasswordRing;
+			sourceTree = "<group>";
+		};
+		7FC5A8981C38BA58009C1059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D70D1F8B07BD00CF1C4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FC5A8B11C38BA58009C1059 /* YEPasswordRingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5A8B21C38BA58009C1059 /* YEPasswordRingTests.m */,
+				7FC5A8B41C38BA58009C1059 /* Info.plist */,
+			);
+			path = YEPasswordRingTests;
+			sourceTree = "<group>";
+		};
+		7FC5A8BC1C38BA58009C1059 /* YEPasswordRingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5A8BD1C38BA58009C1059 /* YEPasswordRingUITests.m */,
+				7FC5A8BF1C38BA58009C1059 /* Info.plist */,
+			);
+			path = YEPasswordRingUITests;
+			sourceTree = "<group>";
+		};
+		A390116E627D3A38548E0015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DD6298460608F19421636D3 /* Pods-YEPasswordRing.debug.xcconfig */,
+				3D442989EDA4FCB77CDE929B /* Pods-YEPasswordRing.release.xcconfig */,
+				71F642D226C1C53F3DEC76A4 /* Pods-YEPasswordRingTests.debug.xcconfig */,
+				16F157F7B1DA47575609E6FB /* Pods-YEPasswordRingTests.release.xcconfig */,
+				E52376522D2F28D16C4A3429 /* Pods-YEPasswordRingUITests.debug.xcconfig */,
+				9E3DC050C1198ED499F1AA6F /* Pods-YEPasswordRingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FED6DAC71F85C7920046AB42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FED6DAC81F85C7AE0046AB42 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FED6DAC81F85C7AE0046AB42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D7111F8B08F200CF1C4A /* deletePasscode_disable.png */,
+				FE92D7121F8B08F200CF1C4A /* deletePasscode_disable@2x.png */,
+				FE92D7131F8B08F200CF1C4A /* deletePasscode.png */,
+				FE92D7141F8B08F200CF1C4A /* deletePasscode@2x.png */,
+				FE92D7151F8B08F200CF1C4A /* donePasscode_disable.png */,
+				FE92D7161F8B08F200CF1C4A /* donePasscode_disable@2x.png */,
+				FE92D7171F8B08F200CF1C4A /* donePasscode.png */,
+				FE92D7181F8B08F200CF1C4A /* donePasscode@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FEF02A721F830D4300542C34 /* YEPassword */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D7211F8B093F00CF1C4A /* YERingView.h */,
+				FE92D7221F8B093F00CF1C4A /* YERingView.m */,
+			);
+			name = YEPassword;
+			path = YEPasswordRing/JSPassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC5A8941C38BA58009C1059 /* YEPasswordRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC5A8C21C38BA58009C1059 /* Build configuration list for PBXNativeTarget "YEPasswordRing" */;
+			buildPhases = (
+				B33C3D64861394AF4E770C95 /* [CP] Check Pods Manifest.lock */,
+				7FC5A8911C38BA58009C1059 /* Sources */,
+				7FC5A8921C38BA58009C1059 /* Frameworks */,
+				7FC5A8931C38BA58009C1059 /* Resources */,
+				A74CA0762AA46D8C75114BD6 /* [CP] Embed Pods Frameworks */,
+				DBC061D77D69311CA43139B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YEPasswordRing;
+			productName = TXTradePasswordDemo;
+			productReference = 7FC5A8951C38BA58009C1059 /* YEPasswordRing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FC5A8AD1C38BA58009C1059 /* YEPasswordRingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC5A8C51C38BA58009C1059 /* Build configuration list for PBXNativeTarget "YEPasswordRingTests" */;
+			buildPhases = (
+				83BAB9C5297D123D3EDB6858 /* [CP] Check Pods Manifest.lock */,
+				7FC5A8AA1C38BA58009C1059 /* Sources */,
+				7FC5A8AB1C38BA58009C1059 /* Frameworks */,
+				7FC5A8AC1C38BA58009C1059 /* Resources */,
+				3F65AB0416B05D2E950FC7E4 /* [CP] Embed Pods Frameworks */,
+				7E244BDA63B6194855AA3FEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC5A8B01C38BA58009C1059 /* PBXTargetDependency */,
+			);
+			name = YEPasswordRingTests;
+			productName = TXTradePasswordDemoTests;
+			productReference = 7FC5A8AE1C38BA58009C1059 /* YEPasswordRingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FC5A8B81C38BA58009C1059 /* YEPasswordRingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC5A8C81C38BA58009C1059 /* Build configuration list for PBXNativeTarget "YEPasswordRingUITests" */;
+			buildPhases = (
+				B2D8ECE165B11CBD14DE3EF1 /* [CP] Check Pods Manifest.lock */,
+				7FC5A8B51C38BA58009C1059 /* Sources */,
+				7FC5A8B61C38BA58009C1059 /* Frameworks */,
+				7FC5A8B71C38BA58009C1059 /* Resources */,
+				2B39786F90A9CE1742375D8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC5A8BB1C38BA58009C1059 /* PBXTargetDependency */,
+			);
+			name = YEPasswordRingUITests;
+			productName = TXTradePasswordDemoUITests;
+			productReference = 7FC5A8B91C38BA58009C1059 /* YEPasswordRingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC5A88D1C38BA58009C1059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "吴天祥";
+				TargetAttributes = {
+					7FC5A8941C38BA58009C1059 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9RYZ48JJ5T;
+					};
+					7FC5A8AD1C38BA58009C1059 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9RYZ48JJ5T;
+						TestTargetID = 7FC5A8941C38BA58009C1059;
+					};
+					7FC5A8B81C38BA58009C1059 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9RYZ48JJ5T;
+						TestTargetID = 7FC5A8941C38BA58009C1059;
+					};
+				};
+			};
+			buildConfigurationList = 7FC5A8901C38BA58009C1059 /* Build configuration list for PBXProject "YEPasswordRing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC5A88C1C38BA58009C1059;
+			productRefGroup = 7FC5A8961C38BA58009C1059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC5A8941C38BA58009C1059 /* YEPasswordRing */,
+				7FC5A8AD1C38BA58009C1059 /* YEPasswordRingTests */,
+				7FC5A8B81C38BA58009C1059 /* YEPasswordRingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC5A8931C38BA58009C1059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE92D71B1F8B08F200CF1C4A /* deletePasscode.png in Resources */,
+				FE92D71E1F8B08F200CF1C4A /* donePasscode_disable@2x.png in Resources */,
+				FE92D7201F8B08F200CF1C4A /* donePasscode@2x.png in Resources */,
+				FE92D71F1F8B08F200CF1C4A /* donePasscode.png in Resources */,
+				FE92D75C1F8C2E0B00CF1C4A /* LaunchScreen.xib in Resources */,
+				FE92D71D1F8B08F200CF1C4A /* donePasscode_disable.png in Resources */,
+				FE92D72A1F8B09BD00CF1C4A /* Main.storyboard in Resources */,
+				FE92D71C1F8B08F200CF1C4A /* deletePasscode@2x.png in Resources */,
+				FE92D7251F8B095D00CF1C4A /* Info.plist in Resources */,
+				FE92D71A1F8B08F200CF1C4A /* deletePasscode_disable@2x.png in Resources */,
+				FE92D7271F8B096900CF1C4A /* Assets.xcassets in Resources */,
+				FE92D7191F8B08F200CF1C4A /* deletePasscode_disable.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC5A8AC1C38BA58009C1059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC5A8B71C38BA58009C1059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B39786F90A9CE1742375D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YEPasswordRingUITests/Pods-YEPasswordRingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F65AB0416B05D2E950FC7E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YEPasswordRingTests/Pods-YEPasswordRingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E244BDA63B6194855AA3FEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YEPasswordRingTests/Pods-YEPasswordRingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83BAB9C5297D123D3EDB6858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A74CA0762AA46D8C75114BD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YEPasswordRing/Pods-YEPasswordRing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D8ECE165B11CBD14DE3EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B33C3D64861394AF4E770C95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC061D77D69311CA43139B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YEPasswordRing/Pods-YEPasswordRing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC5A8911C38BA58009C1059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE92D70A1F8B079B00CF1C4A /* UIColor+Utils.m in Sources */,
+				FE92D7051F8B077800CF1C4A /* AppDelegate.m in Sources */,
+				FE92D70B1F8B079B00CF1C4A /* YEPinController.m in Sources */,
+				FE92D7231F8B093F00CF1C4A /* YERingView.m in Sources */,
+				FE92D70E1F8B07BD00CF1C4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC5A8AA1C38BA58009C1059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC5A8B31C38BA58009C1059 /* YEPasswordRingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC5A8B51C38BA58009C1059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC5A8BE1C38BA58009C1059 /* YEPasswordRingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FC5A8B01C38BA58009C1059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC5A8941C38BA58009C1059 /* YEPasswordRing */;
+			targetProxy = 7FC5A8AF1C38BA58009C1059 /* PBXContainerItemProxy */;
+		};
+		7FC5A8BB1C38BA58009C1059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC5A8941C38BA58009C1059 /* YEPasswordRing */;
+			targetProxy = 7FC5A8BA1C38BA58009C1059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE92D7281F8B09BD00CF1C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE92D7291F8B09BD00CF1C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE92D75A1F8C2E0B00CF1C4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE92D75B1F8C2E0B00CF1C4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FC5A8C01C38BA58009C1059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FC5A8C11C38BA58009C1059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC5A8C31C38BA58009C1059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD6298460608F19421636D3 /* Pods-YEPasswordRing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RYZ48JJ5T;
+				INFOPLIST_FILE = YEPasswordRing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.YEPasswordRing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FC5A8C41C38BA58009C1059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D442989EDA4FCB77CDE929B /* Pods-YEPasswordRing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RYZ48JJ5T;
+				INFOPLIST_FILE = YEPasswordRing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.YEPasswordRing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FC5A8C61C38BA58009C1059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F642D226C1C53F3DEC76A4 /* Pods-YEPasswordRingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RYZ48JJ5T;
+				INFOPLIST_FILE = YEPasswordRingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.YEPasswordRingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YEPasswordRing.app/YEPasswordRing";
+			};
+			name = Debug;
+		};
+		7FC5A8C71C38BA58009C1059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F157F7B1DA47575609E6FB /* Pods-YEPasswordRingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RYZ48JJ5T;
+				INFOPLIST_FILE = YEPasswordRingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.YEPasswordRingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YEPasswordRing.app/YEPasswordRing";
+			};
+			name = Release;
+		};
+		7FC5A8C91C38BA58009C1059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52376522D2F28D16C4A3429 /* Pods-YEPasswordRingUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RYZ48JJ5T;
+				INFOPLIST_FILE = YEPasswordRingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.YEPasswordRingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TXTradePasswordDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7FC5A8CA1C38BA58009C1059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3DC050C1198ED499F1AA6F /* Pods-YEPasswordRingUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RYZ48JJ5T;
+				INFOPLIST_FILE = YEPasswordRingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.YEPasswordRingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TXTradePasswordDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC5A8901C38BA58009C1059 /* Build configuration list for PBXProject "YEPasswordRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC5A8C01C38BA58009C1059 /* Debug */,
+				7FC5A8C11C38BA58009C1059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC5A8C21C38BA58009C1059 /* Build configuration list for PBXNativeTarget "YEPasswordRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC5A8C31C38BA58009C1059 /* Debug */,
+				7FC5A8C41C38BA58009C1059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC5A8C51C38BA58009C1059 /* Build configuration list for PBXNativeTarget "YEPasswordRingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC5A8C61C38BA58009C1059 /* Debug */,
+				7FC5A8C71C38BA58009C1059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC5A8C81C38BA58009C1059 /* Build configuration list for PBXNativeTarget "YEPasswordRingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC5A8C91C38BA58009C1059 /* Debug */,
+				7FC5A8CA1C38BA58009C1059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC5A88D1C38BA58009C1059 /* Project object */;
+}

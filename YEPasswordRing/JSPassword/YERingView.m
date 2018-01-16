@@ -4,7 +4,7 @@
 //
 
 #import "YERingView.h"
-#import "CMPopTipView.h"
+//#import "CMPopTipView.h"
 #import "UIColor+Utils.h"
 #import "Constants.h"
 
